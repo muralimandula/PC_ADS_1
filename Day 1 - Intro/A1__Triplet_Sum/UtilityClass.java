@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 final class UtilityClass {
-    
+
     public static void main(final String[] args) {
 
         final int[] arr = new int[] {1, 4, 45, 6, 10, 8, -24 };
@@ -28,15 +28,15 @@ final class UtilityClass {
          * Sort array, to reduce complexity of  N^3 to N^2
          */
 
-        // costs of NlogN to sort
+        // costs NlogN to sort
         Arrays.sort(arr);
 
         count = 0;
 
         for (int i = 0; i < arr.length - 2; i++) {
 
-            int j = i + 1;            // second value index, from index next to first element
-            int k = arr.length  - 1;  // third value index, from last till it meet second
+            int j = i + 1;            // second element index, index next to first element (Increase towards third)
+            int k = arr.length  - 1;  // third element index, index of the last element    (Decrease towards second)
 
             int sum = arr[i] + arr[j] + arr[k];
 
