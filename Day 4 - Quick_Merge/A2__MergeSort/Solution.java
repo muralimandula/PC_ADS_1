@@ -47,8 +47,8 @@ class Solution {
 				arr[k] = rightArr[j]; 
 				j++;
 			} else {
-				// this false under equal values
-				// No update haapens in main array
+				// this falls under equal values
+				// No update happens in main array
 				// STABLE
 			}
 			k++;
