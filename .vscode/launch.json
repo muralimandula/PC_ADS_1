@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - WeightedQuickUnionUF",
+            "request": "launch",
+            "mainClass": "WeightedQuickUnionUF",
+            "projectName": "PC_ADS_1_107f030a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BinarySearch",
             "request": "launch",
             "mainClass": "BinarySearch",
